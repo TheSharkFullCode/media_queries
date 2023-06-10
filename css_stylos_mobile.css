@@ -1,0 +1,180 @@
+* {
+    margin: 0%;
+}
+
+#box1,
+#box2,
+#box3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+article{
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #prueba3 {
+        text-align: center;
+
+
+    }
+
+    .container {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+
+
+
+    }
+
+
+    #box1 {
+        background-color: orangered;
+
+
+    }
+
+    #box2 {
+        background-color: yellow;
+
+    }
+
+    #box3 {
+        background-color: brown;
+
+    }
+
+    #prueba2 {
+
+        display: none;
+    }
+
+    #prueba1 {
+        display: none;
+
+    }
+
+
+
+}
+
+.container{
+    height: 100%;
+}
+body{
+    height: 100vh;
+
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
+
+    }
+    #prueba2{
+        text-align: center;
+    }
+
+    #box1 {
+        background-color: palevioletred;
+        display: flex;
+
+
+
+    }
+
+    #box2 {
+        display: flex;
+        align-items: center;
+        background-color: powderblue;
+        flex-direction: column;
+    }
+
+    #box3 {
+        background-color: plum;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #prueba3 {
+
+        display: none;
+    }
+
+    #prueba1 {
+        display: none;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 900px) {
+    #prueba1 {
+        
+        display: flex;
+        justify-content: center;
+
+        
+    }
+    .container{
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        flex-direction: column;
+    }
+
+    #box1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        background-color: darkcyan;
+
+
+    }
+
+    #box2 {
+        display: flex;
+        background-color: slateblue;
+    }
+
+    #box3 {
+        background-color: royalblue;
+    }
+
+    #prueba2 {
+        list-style: none;
+        display: none;
+    }
+
+    #prueba3 {
+        display: none;
+
+    }
+
+
+
+
+}
